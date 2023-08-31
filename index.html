@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500&display=swap');
+	#customers {
+		font-family: 'Roboto', sans-serif;
+		width: 70%;
+		margin: 0 auto;
+		/* border: 1px solid black; */
+	}
+	.inv_title{
+		font-size: 70px;
+		font-weight: 900;
+		line-height: normal;
+		color: #901C1D;
+	}
+	.inv-out{
+		width: 15%;
+	}
+	.inv-item{
+		background-color: #901C1D;
+		color: white;
+	}
+	.pe-0 tr td{
+		padding:2px;
+	}
+	.text-red{
+		color: #901C1D;	
+	}
+	.text-nominal{
+		font-size: 22px;
+		line-height: normal;
+		font-weight: 900;
+	}
+	.border-red{
+		border: 2px solid #901C1D;	
+	}
+	.font-weight-semi-bold{
+		font-weight: 500;
+	}
+	.bg{
+		background-image: url('bg.png');
+		background-size: cover;
+		background-repeat:no-repeat;
+	}
+    </style>
+    <title>Hello, world!</title>
+  </head>
+  <body class="bg">
+	<div class="text-center pt-4">
+		<img src="kop.jpg" width="80%" alt="">
+	</div>
+	<table id="customers" class="pe-0">
+		<tr>
+		  <td rowspan="4" width="60%" class="inv_title text-center">KUITANSI</td>
+		</tr>
+		<tr>
+			<td class="inv-out">
+			  <div class="inv-item pl-1">
+				  No. Invoice
+			  </div>
+		  </td>
+			<td>: 001/522/VII/2023</td>
+	  	</tr>
+		<tr>
+			<td class="inv-out">
+				<div class="inv-item pl-1">
+					No. Member
+				</div>
+			</td>
+			<td>: LPKN-1234</td>
+		</tr>
+		<tr>
+			<td class="inv-out">
+				<div class="inv-item pl-1">
+					Kegiatan
+				</div>
+			</td>
+			<td>: Kelas Online</td>
+		</tr>
+	</table>
+	<table id="customers" class="mt-2 text-red pe-0">
+		<tr class="font-italic">
+			<td  width="25%" class="p-0 font-weight-semi-bold"><div class="py-2 pl-2 inv-item"><p class="py-2 pl-2 m-0 mr-2">Telah Diterima Dari</p></div></td>
+			<td class="p-0"><div class="py-2 pl-2 inv-item"><p class="py-2 pl-2 m-0 mr-2 bg-light text-red rounded font-weight-semi-bold">Muhamad Adriyansyah Mawardi Putra</p></div></td>
+		</tr>
+		<tr class="font-italic">
+			<td class="font-weight-semi-bold pl-3">Banyaknya Uang</td>
+			<td>: Tiga Juta Lima Ratus Ribu Satu</td>
+		</tr>
+			<tr class="font-italic">
+			<td class="font-weight-semi-bold pl-3">Untuk Pembayaran</td>
+			<td class="font-weight-semi-bold">: Evaluasi kewajaran Harga (EKH) pada tender pekerjaan konstruksi</td>
+		</tr>
+		<tr class="font-italic">
+			<td></td>
+			<td>: (Studi Kasus Kontrak Lumsum, Harga Satuan, Serta Kontrak Gabungan)</td>
+		</tr>
+		<tr class="font-italic">
+			<td class="font-weight-semi-bold pl-3">Tanggal Kegiatan</td>
+			<td>: 26 Agustus 2023 s/d 27 Agustus 2023</td>
+		</tr>
+		<tr>
+			<td class="text-center">
+				<hr class="p-0 my-1 border-red">
+				<span class="text-nominal" style="text-decoration: none;"> Rp. 3,500,001,-</span>
+				<hr class="p-0 my-1 border-red">
+			</td>
+			<td class="d-flex justify-content-end"> 
+				<div class="text-center">
+					<div class="font-weight-semi-bold">Jakarta, Selasa 22 Agustus 2023</div>
+					<div>Diterima Oleh :</div>
+					<img width="50%" src="ttd.jpg" alt="">
+					<div class="font-weight-semi-bold">( Ayu Savitri )</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+   <br>
+   <br>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
